@@ -1,0 +1,47 @@
+.conversation {
+  display: flex;
+  flex-direction: row;
+  padding: 16px 0px;
+  cursor: pointer;
+  padding-left: 49px;
+}
+
+.conversation:hover {
+  background-color: #e5e5e5;
+}
+
+.userDetails {
+  flex-direction: column;
+  margin-left: 13px;
+}
+
+.username {
+  margin-bottom: 3px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  padding-top: 2px;
+
+  /* Glare Black */
+
+  color: #141414;
+}
+
+.number {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  display: flex;
+  align-items: center;
+
+  /* Glare Gray */
+
+  color: #4f5665;
+}

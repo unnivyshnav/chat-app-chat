@@ -1,0 +1,163 @@
+.container {
+  flex-direction: row;
+}
+
+.messenger {
+  position: relative;
+  width: 1440px;
+  height: 100vh;
+
+  background: #e9e9e9;
+  /* display: flex; */
+}
+
+.rectangle {
+  position: absolute;
+  width: 347px;
+  height: 100vh;
+  left: 0px;
+  top: 0px;
+
+  background: #ffffff;
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.25);
+}
+
+.vector {
+  /* Vector */
+
+  position: absolute;
+  width: 41.47px;
+  height: 37.35px;
+  left: 52px;
+  top: 50px;
+}
+
+.auth {
+  position: absolute;
+  width: 132px;
+  height: 43px;
+  left: 101px;
+  top: 49px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+
+  /* Glare Black */
+
+  color: #141414;
+}
+
+.register {
+  position: absolute;
+  /* width: 146px; */
+  height: 33px;
+  left: 470px;
+  top: 340px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 33px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+
+.name {
+  position: absolute;
+  width: 500px;
+  left: calc(50% - 500px / 2);
+  top: 47.8%;
+  /* bottom: 62.6%; */
+
+  /* Color Fill/White */
+
+  background: #ffffff;
+}
+
+input {
+  position: absolute;
+  height: 38px;
+  left: 0%;
+  right: 0%;
+  top: calc(50% - 38px / 2 - 0.01px);
+  padding-left: 15px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  border: 1px solid #21978b;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+::placeholder {
+  position: absolute;
+  width: 330px;
+  height: 24px;
+  left: 15px;
+  top: 7px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  /* identical to box height, or 160% */
+
+  /* Color Fill/Secondary */
+
+  color: #6c757d;
+}
+
+.mobile {
+  position: absolute;
+  width: 500px;
+  left: calc(50% - 500px / 2);
+  top: 38.97%;
+  bottom: 57.71%;
+
+  /* Color Fill/White */
+
+  background: #ffffff;
+}
+
+.submitButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  width: 100px;
+  height: 38px;
+  left: 470px;
+  top: 447px;
+
+  /* Glare Green */
+
+  background: #21978b;
+  border-radius: 27px;
+
+  /* NEXT */
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 25px;
+  /* identical to box height, or 156% */
+
+  color: #ffffff;
+}

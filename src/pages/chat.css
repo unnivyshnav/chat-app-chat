@@ -1,0 +1,92 @@
+.choose {
+  position: absolute;
+  width: 472px;
+  height: 19px;
+  left: 470px;
+  top: 390px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+
+  /* Glare Gray */
+
+  color: #4f5665;
+}
+
+.activeHead {
+  position: absolute;
+  width: 148px;
+  height: 30px;
+  left: 49px;
+  top: 155px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 123.6%;
+  /* identical to box height, or 30px */
+
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+
+.users {
+  position: absolute;
+  width: 100%;
+  height: 700px;
+  left: 0;
+  top: 188px;
+}
+
+.chatWrapper {
+  position: absolute;
+  width: 1093px;
+  height: 100vh;
+  /* border: solid black 1px; */
+  top: 0;
+  left: 347px;
+}
+
+.chatMessages {
+  padding-top: 30px;
+  padding-right: 10px;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  height: 85%;
+}
+
+.chatBottom {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.chatMessageInput {
+  width: 90%;
+  height: 20px;
+  padding: 10px;
+}
+
+.sendButton {
+  width: 10%;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: teal;
+  color: white;
+}
