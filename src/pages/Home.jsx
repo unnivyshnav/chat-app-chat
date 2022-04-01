@@ -1,6 +1,6 @@
 import "./home.css";
 import vector from "../vector.svg";
-import { useRef, useState, useContext } from "react";
+import { useRef, useContext } from "react";
 import { Context } from "../context/Context";
 
 import axios from "axios";
