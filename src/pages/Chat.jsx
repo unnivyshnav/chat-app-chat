@@ -44,6 +44,7 @@ export default function Chat() {
       );
     });
   }, [user]);
+  console.log(onlineUsers);
 
   useEffect(() => {
     const getConversations = async () => {
