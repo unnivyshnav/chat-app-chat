@@ -50,7 +50,7 @@ export default function Chat() {
     const getConversations = async () => {
       try {
         const res = await axios.get(
-          "http://localhost:5000/api/conversations/" + user._id
+          "https://mernchatappp.herokuapp.com/api/conversations/" + user._id
         );
         setConversations(res.data);
         console.log(res.data);
@@ -65,7 +65,7 @@ export default function Chat() {
     const getMessages = async () => {
       try {
         const res = await axios.get(
-          "http://localhost:5000/api/messages/" + currentChat?._id
+          "https://mernchatappp.herokuapp.com/api/messages/" + currentChat?._id
         );
         setMessages(res.data);
       } catch (err) {
@@ -95,7 +95,7 @@ export default function Chat() {
 
     try {
       const res = await axios.post(
-        "http://localhost:5000/api/messages",
+        "https://mernchatappp.herokuapp.com/api/messages",
         message
       );
       setMessages([...messages, res.data]);

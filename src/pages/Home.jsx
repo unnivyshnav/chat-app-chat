@@ -14,13 +14,17 @@ export default function Home() {
     dispatch({ type: "LOGIN_START" });
 
     try {
-      const res = await axios.post("http://localhost:5000/auth/login", {
-        token: tokenRef.current.value,
-      });
+      const res = await axios.post(
+        "https://mernchatappp.herokuapp.com/auth/login",
+        {
+          token: tokenRef.current.value,
+        }
+      );
 
       res.data.accessToken = tokenRef.current.value;
       console.log(res);
       dispatch({ type: "LOGIN_SUCCESS", payload: res.data });
+      window.location.replace("/chat");
     } catch (err) {
       console.log(err);
     }

@@ -11,7 +11,7 @@ export default function Conversations({ conversation, currentUser }) {
     const getUser = async () => {
       try {
         const res = await axios(
-          "http://localhost:5000/auth?userId=" + friendId
+          "https://mernchatappp.herokuapp.com/auth?userId=" + friendId
         );
 
         setUser(res.data);
